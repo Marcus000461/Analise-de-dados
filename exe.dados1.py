@@ -10,7 +10,7 @@ while True:
         break
     else:
         print("Resposta inválida. Por favor, digite 's' ou 'n'.")
-
+        print("Notas atuais:", notas)
 soma = sum(notas)
 media = soma / len(notas) if notas else 0
 print(f"A média das notas é: {media:.2f}")
